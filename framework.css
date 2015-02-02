@@ -1,0 +1,195 @@
+/* Typography resets */
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,th,td {
+    margin: 0;
+    padding: 0; }
+
+/*Spécificités générales (resets, liens, listes, etc) */
+body{
+    background: white;
+    color: #222222;
+    
+    padding: 20px 0 20px 0;
+    margin: 0;
+    
+    font-family: 'Open Sans', Helvetica, Arial, serif;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bitter', serif;
+    
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+a{
+    text-decoration: none;
+    color: #446CB3; }
+    a:hover,a:focus{
+        color: #3498DB; }
+    a img{
+        border: none; }
+
+h1{
+    font-size: 2.3em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.3em;
+}
+
+h5{
+    font-size: 1em;
+}
+
+h6{
+    font-size: 0.8em;
+}
+
+.sous-titre{
+    color: grey;
+}
+
+hr{
+    border: 1px solid lightgrey;
+}
+
+/*Typographie*/
+em, i{
+    font-size: italic;
+}
+
+strong,g{
+    font-weight: bold;
+}
+
+code{
+
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    color: #f8f8f8;
+    background-color: #333333;
+}
+
+ul {
+    margin-left: 1.1em; }
+
+.menu-horizontal{
+    list-style: none;
+}
+
+/*BOUTTONS*/
+.boutton{
+    cursor: pointer;
+    
+    height: 40px;
+    width: 100px;
+    
+    font-size: 1em;
+    
+    border: none;
+    color: white;
+    background-color: #446CB3;
+}.boutton:hover{
+    background-color: #3498DB;
+    }
+
+/*Rouge*/
+.boutton_rouge{
+    cursor: pointer;
+
+    height: 40px;
+    width: 100px;
+
+    font-size: 1em;
+
+    border: none;
+    color: white;
+    background-color: #c0392b;
+}.boutton_rouge:hover{
+    background-color: #e74c3c;
+}
+
+/*Vert*/
+.boutton_vert{
+    cursor: pointer;
+
+    height: 40px;
+    width: 100px;
+
+    font-size: 1em;
+
+    border: none;
+    color: white;
+    background-color: #27ae60;
+}.boutton_vert:hover{
+    background-color: #2ecc71;
+}
+
+/*FORMULAIRES*/
+label{
+    display: block;
+}
+
+form input:focus{
+    margin-left: 20px;
+    
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/*TEST MENU BLUR*/
+.menu_blur{
+    font-family: 'Bitter', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.menu_blur li{
+    margin: 0 20px;    
+}
+
+.blur{
+    display: inline-block;
+    text-align: center;
+}
+
+.blur a{
+    color: transparent;
+    text-shadow: 0px 0px 5px #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu_blur:hover a{
+    text-shadow: 0px 0px 5px grey;
+}
+.blur a:hover{
+    color: #446CB3;
+    text-shadow: 0px 0px 1px #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+/*Spécificités locales, à supprimer (utilisée pour test)*/
+body{
+    width : 1000px;
+    margin: 0 auto;
+}
